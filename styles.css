@@ -1,0 +1,154 @@
+/* *{
+  background-color: black;
+} */
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  /* background-color: #040507; */
+  /* background-image: cover;
+  background-image: url("./images/auditorium.jpg"); */
+}
+.bigcontainer{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  border: 5px solid #0af7bf;
+  border-radius:20px;
+  height: 470px;
+  width: 1300px;
+  /* border: solid 2px white; */
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+/* .w-drum{
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #1fd0e7;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  
+  background-image: url("images/tom1.png");
+  transition-property: all;
+  transition-duration: 0.5s;
+} */
+
+
+.w{
+  background-image: url("tom1.png");
+}
+.a {
+  background-image: url("tom2.png");
+}
+
+.s {
+  background-image: url("tom3.png");
+}
+
+.d {
+  background-image: url("tom4.png");
+}
+
+.j {
+  background-image: url("snare.png");
+}
+
+.k {
+  background-image: url("crash.png");
+}
+
+.l {
+  background-image: url("kick.png");
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #1fd0e7;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  /* transition-property: all;
+  transition-duration: 0.5s ease; */
+  transition: transform 0.5s ease;
+}
+.drum:hover{
+  border: 10px solid #0af7bf;
+}
+.w-hover:hover{
+
+  
+  transform: scale(0.9);
+
+}
+.a-hover:hover{
+  transform: scale(0.9);
+}
+.s-hover:hover{
+  transform: scale(0.9);
+}
+.d-hover:hover{
+  transform: scale(0.9);
+}
+.j-hover:hover{
+  transform: scale(0.9);
+}
+.k-hover:hover{
+  transform: scale(0.9);
+}
+.l-hover:hover{
+  transform: scale(0.9);
+}
